@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Accounting Management Program</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <h2>Accounting Management Program</h2>
+    <div class="container">
+      <h4>Balance (Baht)</h4>
+      <h1 id="balance"></h1>
+      <div class="income-expense-container">
+        <div>
+          <h4>Income</h4>
+          <p id="money-plus" class="money plus"></p>
+        </div>
+        <div>
+          <h4>Expense</h4>
+          <p id="money-minus" class="money minus"></p>
+        </div>
+      </div>
+      <h3>Transaction</h3>
+      <ul id="list" class="list">
+        
+      </ul>
+      <h3>Add List</h3>
+      <form action="" id="form">
+        <div class="form-control">
+          <label for="title">List Name</label>
+          <input type="text" name="" id="title" placeholder="identify a list" />
+        </div>
+        <div class="form-control">
+          <label for="amount"
+            >Amount <br />
+            (+ income, - expense)
+          </label>
+          <input type="number" name="" id="amount" placeholder="enter amount">
+        </div>
+        <button class="btn" type="submit">Add</button>
+      </form>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
+
+
